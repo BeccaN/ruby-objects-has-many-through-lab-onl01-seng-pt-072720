@@ -1,5 +1,10 @@
 class Appointment
   
-  def initialize()
   
+  
+  @@all = []
+  
+  def initialize()
+    @@all << self 
+  end   
 end   
